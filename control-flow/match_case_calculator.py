@@ -19,4 +19,5 @@ match operator:
  case _:
   print("Invalid")
 
-  
+if (num1 == 0 or num2 == 0) and (operator == "/"):
+   print("Cannot divide by zero")
