@@ -1,4 +1,7 @@
-weather = input("What's the weather like today? (sunny/rainy/cold):")
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
+
+# Convert input to lowercase for comparison
+weather = weather.lower()
 
 if weather == "sunny":
   print("Wear a t-shirt and sunglasses. ")
