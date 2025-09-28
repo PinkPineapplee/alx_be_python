@@ -4,13 +4,13 @@ def perform_operation(num1, num2, operation):
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
-        return num1 - num2  # Changed from num2 - num1 for logical order
+        return num1 - num2  
     elif operation == 'multiply':
         return num1 * num2
     elif operation == 'divide':
-        if num2 != 0:  # Added division by zero check
-            return num1 / num2
-        else:
-            return "Error: Division by zero"
+         if num2 != 0:  # Added division by zero check
+             return num1 / num2
+         else:
+             return "Error: Division by zero"
     else:
         return "Error: Invalid operation"
