@@ -13,5 +13,4 @@ class Book:
  
     def __repr__(self):
         return f"Book('{self.title}', '{self.author}', '{self.year}')"
-    def get_info(self):
-        return f"'{self.title}' by {self.author}"
+    
