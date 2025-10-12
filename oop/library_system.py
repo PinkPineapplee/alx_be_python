@@ -17,7 +17,7 @@ class Book:
         self.author = str(author)
 
     def get_info(self):
-     return f"{self.title} by {self.author}"   
+     return f"Book: {self.title} by {self.author}"   
             
     
 class EBook(Book):
@@ -26,7 +26,7 @@ class EBook(Book):
         self.file_size = int(file_size)  # in KB
 
     def get_info(self):
-        return f"{self.title} by {self.author}, File Size: {self.file_size}KB"        
+        return f"EBook: {self.title} by {self.author}, File Size: {self.file_size}KB"        
 
 
 class PrintBook(Book):   
@@ -35,5 +35,5 @@ class PrintBook(Book):
         self.num_pages = int(num_pages)  
 
     def get_info(self):
-     return f"{self.title} by {self.author}, Page Count: {self.num_pages}"   
+     return f"PrintBook: {self.title} by {self.author}, Page Count: {self.num_pages}"   
         
